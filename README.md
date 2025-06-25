@@ -1,7 +1,7 @@
-# MonoUS
+# MultUSacc
 
 
-Modelo de Sistema Comercial monousuário com o MS-Access | *Single-user Commercial System Model with MS-Access*
+Modelo de Sistema Comercial Multiusuário com o MS-Access | *Multi-user Commercial System Model with MS-Access*
 <br/>
 <br/>
 ### 🖥️ Pré-requisitos / *System requirements*
@@ -17,5 +17,5 @@ Modelo de Sistema Comercial monousuário com o MS-Access | *Single-user Commerci
 
 
 ### 📄 Licença / *License*
-* Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/laertemjr/MonoUserSystem/blob/main/LICENSE.md) para detalhes.
-* *This project is licensed under MIT License* - see the [LICENSE.md](https://github.com/laertemjr/MonoUserSystem/blob/main/LICENSE.md) file for details.*
+* Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/laertemjr/MultUSacc/blob/main/LICENSE.md) para detalhes.
+* *This project is licensed under MIT License* - see the [LICENSE.md](https://github.com/laertemjr/MultUSacc/blob/main/LICENSE.md) file for details.*
