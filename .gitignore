@@ -68,6 +68,8 @@
 *.projdata
 *.tvsconfig
 *.dsk
+* Win32/
+* Win64/
 
 # Delphi history and backups
 __history/
