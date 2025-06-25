@@ -1,0 +1,27 @@
+program MultUSacc;
+
+uses
+  Vcl.Forms,
+  uGlobal in 'uGlobal.pas',
+  uAccessConf in 'uAccessConf.pas' {frmAccessConf},
+  uCadCli in 'uCadCli.pas' {frmCadCli},
+  uCadUsers in 'uCadUsers.pas' {frmCadUsers},
+  uLogin in 'uLogin.pas' {frmLogin},
+  uMainMenu in 'uMainMenu.pas' {frmMainMenu},
+  uDM in 'uDM.pas' {dm: TDataModule};
+
+{$R *.res}
+
+begin
+  ReportMemoryLeaksOnShutdown := True;
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmLogin, frmLogin);
+  Application.CreateForm(TfrmAccessConf, frmAccessConf);
+  Application.CreateForm(TfrmAccessConf, frmAccessConf);
+  Application.CreateForm(TfrmCadCli, frmCadCli);
+  Application.CreateForm(TfrmCadUsers, frmCadUsers);
+  Application.CreateForm(TfrmMainMenu, frmMainMenu);
+  Application.CreateForm(Tdm, dm);
+  Application.Run;
+end.
