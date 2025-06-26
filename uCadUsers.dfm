@@ -159,6 +159,7 @@ object frmCadUsers: TfrmCadUsers
     ParentBiDiMode = False
   end
   object TbUsers: TFDQuery
+    AfterInsert = TbUsersAfterInsert
     Connection = dm.FDConnection1
     Left = 432
     Top = 168

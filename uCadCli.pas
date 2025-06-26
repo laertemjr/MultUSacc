@@ -33,10 +33,10 @@ type
     procedure Tb_ClientesBeforePost(DataSet: TDataSet);
     procedure dbLedt_nomeExit(Sender: TObject);
     procedure dbLedt_nomeKeyPress(Sender: TObject; var Key: Char);
-    procedure Tb_ClientesAfterInsert(DataSet: TDataSet);
     procedure DBGrid1TitleClick(Column: TColumn);
     procedure dbLedt_emailKeyPress(Sender: TObject; var Key: Char);
     procedure DBNavigator1Click(Sender: TObject; Button: TNavigateBtn);
+    procedure TbClientesAfterInsert(DataSet: TDataSet);
   private
     { Private declarations }
   public
@@ -128,10 +128,9 @@ begin
       Key := #0; // #8 backspace
 end;
 
-procedure TfrmCadCli.Tb_ClientesAfterInsert(DataSet: TDataSet);
+procedure TfrmCadCli.TbClientesAfterInsert(DataSet: TDataSet);
 begin
    dbLedt_nome.SetFocus;
-   dbLedt_nome.SelLength := 0;
 end;
 
 procedure TfrmCadCli.Tb_ClientesBeforePost(DataSet: TDataSet);

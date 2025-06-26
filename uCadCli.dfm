@@ -194,6 +194,7 @@ object frmCadCli: TfrmCadCli
     ParentBiDiMode = False
   end
   object TbClientes: TFDQuery
+    AfterInsert = TbClientesAfterInsert
     Connection = dm.FDConnection1
     Left = 448
     Top = 336
