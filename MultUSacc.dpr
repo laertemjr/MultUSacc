@@ -3,7 +3,6 @@ program MultUSacc;
 uses
   Vcl.Forms,
   uGlobal in 'uGlobal.pas',
-  uAccessConf in 'uAccessConf.pas' {frmAccessConf},
   uCadCli in 'uCadCli.pas' {frmCadCli},
   uCadUsers in 'uCadUsers.pas' {frmCadUsers},
   uLogin in 'uLogin.pas' {frmLogin},
@@ -17,8 +16,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfrmLogin, frmLogin);
-  Application.CreateForm(TfrmAccessConf, frmAccessConf);
-  Application.CreateForm(TfrmAccessConf, frmAccessConf);
   Application.CreateForm(TfrmCadCli, frmCadCli);
   Application.CreateForm(TfrmCadUsers, frmCadUsers);
   Application.CreateForm(TfrmMainMenu, frmMainMenu);

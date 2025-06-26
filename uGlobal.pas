@@ -9,13 +9,9 @@ uses
 function GetVersionInfo(const app:string):string;
 function MsgPergunta(pMsg:String; pFocoBotaoSim:Boolean=True):Boolean;
 
-const
-   dbname      : array [0..3] of string = ('MS-Access', 'Firebird', 'MS-SQL Server', 'MySQL Server');
 
 var
    sVerInfo : string;
-   nomeBD:string;
-   valueNames : TStringList;
 
 implementation
 
