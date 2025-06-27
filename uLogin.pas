@@ -120,7 +120,7 @@ begin
       else
       begin
          Application.Terminate;
-         Result := True; // para sair do loop "while not conectar() do"
+         Abort;
       end;
    end;
 end;
@@ -142,6 +142,7 @@ begin
    else
    begin
       Application.Terminate;
+      Abort;
    end;
 end;
 
